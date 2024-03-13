@@ -9,7 +9,7 @@ package newpackage;
  * @author imantha_o
  */
 public class User {
-    //private int id;
+    private int id;
     private String name;
     private String email;
     private String password;
@@ -24,13 +24,13 @@ public class User {
         this.password = password;
     }
 
-//    public int getId() {
-//        return id;
-//    }
-//
-//    public void setId(int id) {
-//        this.id = id;
-//    }
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;

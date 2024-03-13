@@ -12,7 +12,21 @@
         <title>Home Page</title>
     </head>
     <body>
-        <h1>Hello</h1>
-        <a href="registration.jsp">Go for Register</a>
+        <div>
+            <div>
+                <img src="src" alt="No Image"/>
+                <h1>Login Account</h1>
+                
+                <form action="LoginServlet" method="post">
+                    <p>Username</p>
+                    <input type="text" placeholder="Username" name="email" required>
+                    <p>Password</p>
+                    <input type="password" placeholder="Password" name="password" required>
+                    <input type="submit" value="Login"><br><br>
+                    <a href="#">Forget Password</a><br><br><br>
+                    <a href="registration.jsp">Create New Account</a>
+                </form>
+            </div>
+        </div>
     </body>
 </html>

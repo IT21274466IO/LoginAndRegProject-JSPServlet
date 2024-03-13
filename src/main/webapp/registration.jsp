@@ -23,7 +23,7 @@
                     <input type="email" placeholder="Email" name="email" required>
                     <p>Password</p>
                     <input type="password" placeholder="Password" name="password" required>
-                    <input type="submit" value="Register">
+                    <input type="submit" value="Register"><br><br>
                     <a href="index.jsp">Already have an Account?</a>
                 </form>
             </div>
