@@ -12,6 +12,22 @@
         <title>Register Page</title>
     </head>
     <body>
+        <div class="container">
+            <div class="regbox box">
+                <img class="avatar" src="">
+                <h1>Register Account</h1>
+                <form action="RegisterServlet" method="post">
+                    <p>Username</p>
+                    <input type="text" placeholder="Username" name="name" required>
+                    <p>Usermail</p>
+                    <input type="email" placeholder="Email" name="email" required>
+                    <p>Password</p>
+                    <input type="password" placeholder="Password" name="password" required>
+                    <input type="submit" value="Register">
+                    <a href="index.jsp">Already have an Account?</a>
+                </form>
+            </div>
+        </div>
         
     </body>
 </html>
